@@ -1,0 +1,18 @@
+{
+  "exclude_dirs": [".git", "node_modules", "dist", "build", "target", "venv", ".venv", "__pycache__"],
+  "exclude_files": ["package-lock.json", "yarn.lock", "pnpm-lock.yaml", "poetry.lock", "Pipfile.lock"],
+  "include_extensions": [".py", ".js", ".jsx", ".ts", ".tsx", ".java", ".json", ".toml", ".yaml", ".yml", ".env", ".ini", ".cfg", ".properties", ".gradle", ".xml"],
+  "max_file_size_bytes": 1048576,
+  "fail_on_severity": "high",
+  "team_rules": {
+    "max_line_length": 120,
+    "forbid_console_log": true,
+    "forbid_print": false,
+    "require_python_type_hints": false,
+    "forbid_todo_in_production": false,
+    "allow_test_secrets": false
+  },
+  "severity_overrides": {},
+  "ignore_rules": [],
+  "ignore_fingerprints": []
+}
